@@ -1,4 +1,4 @@
-package cn.trusteye.example.design_model.simplefactory.three;
+package cn.trusteye.example.design_model.simplefactory.two;
 
 import cn.trusteye.example.design_model.simplefactory.Phone.Phone;
 import cn.trusteye.example.design_model.simplefactory.Phone.impl.ApplePhone;
@@ -6,15 +6,14 @@ import cn.trusteye.example.design_model.simplefactory.Phone.impl.SamsungPhone;
 
 /**
  * Created by rayman on 2017/7/6.
- * 静态工厂
+ * 通过用户调用不同工厂方法来生成不同产品
  */
 public class PhoneFactory {
-    static public Phone produceApplePhone(){
+    public Phone produceApplePhone(){
         return new ApplePhone();
     }
 
-    static public Phone produceSamsungPhone(){
+    public Phone produceSamsungPhone(){
         return new SamsungPhone();
     }
-
 }

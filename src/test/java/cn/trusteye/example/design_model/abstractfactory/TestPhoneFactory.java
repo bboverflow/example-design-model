@@ -1,7 +1,7 @@
 package cn.trusteye.example.design_model.abstractfactory;
 
 import cn.trusteye.example.design_model.abstractfactory.impl.ApplePhoneFactory;
-import cn.trusteye.example.design_model.simplefactory.Phome.Phone;
+import cn.trusteye.example.design_model.simplefactory.Phone.Phone;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 package cn.trusteye.example.design_model.simplefactory.one;
 
-import cn.trusteye.example.design_model.simplefactory.Phome.Phone;
+import cn.trusteye.example.design_model.simplefactory.Phone.Phone;
 import org.junit.Assert;
 import org.junit.Test;
 
